@@ -1,0 +1,22 @@
+{
+    "name": "onetree/BrickAPI",
+    "description": "BrickAPI provides an easy and intuitive API for communicating with the Bricklink API",
+    "license": "MIT",
+    "keywords": ["Bricklink", "BrickAPI"],
+    "authors": [
+        {
+            "name": "Dave Lemmens"
+        }
+    ],
+    "require": {
+		"guzzlehttp/guzzle": "6.2.*"
+	},
+    "require-dev": {
+        "phpunit/phpunit": "5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "OneTree\\BrickAPI\\": "src"
+        }
+    }
+}
